@@ -1,0 +1,30 @@
+<resources>
+    <!--App name-->
+    <string name="app_name">Damn Vulnerable Mobile App Helper</string>
+
+    <!--Navigation bar-->
+    <string name="nav_home">Home</string>
+    <string name="nav_helpers">Helpers</string>
+    <string name="nav_settings">Settings</string>
+
+    <!--Home-->
+    <string name="txt_home_title">Home</string>
+    <string name="txt_home_body">Damn Vulnerable Mobile App Helper is the accompanying app to the Damn Vulnerable Mobile App (DVMA). This app contains any necessary features in order to demonstrate certain vulnerabilities that are contained in the parent app.</string>
+
+    <!--Settings-->
+    <string name="txt_settings_title">Settings</string>
+    <string name="txt_settings_theme">Theme</string>
+
+    <!--Buttons-->
+    <string name="btn_system">System</string>
+    <string name="btn_light">Light</string>
+    <string name="btn_dark">Dark</string>
+    <string name="btn_helpers_broadcast">Broadcast</string>
+
+    <!--Other-->
+    <string name="txt_helpers_title">Helpers</string>
+    <string name="txt_helpers_broadcast_title">Broadcast Helper</string>
+    <string name="txt_username">Username</string>
+    <string name="txt_password">Password</string>
+
+</resources>
