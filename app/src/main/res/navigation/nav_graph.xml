@@ -21,7 +21,14 @@
         android:name="com.example.damnvulnerablemobileapphelper.HelpersMenuFragment"
         android:label="@string/nav_helpers">
         <action
-            android:id="@+id/action_helpersMenuFragment_to_helpersBroadcastFragment"
+            android:id="@+id/action_fragment_helpers_menu_to_helpersActivityFragment"
+            app:destination="@id/helpersActivityFragment" />
+        <action
+            android:id="@+id/action_fragment_helpers_menu_to_helpersBroadcastFragment"
             app:destination="@id/helpersBroadcastFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/helpersActivityFragment"
+        android:name="com.example.damnvulnerablemobileapphelper.HelpersActivityFragment"
+        android:label="HelpersActivityFragment" />
 </navigation>

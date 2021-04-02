@@ -26,7 +26,10 @@ class HelpersMenuFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnHelpersBroadcast.setOnClickListener {
-            Navigation.findNavController(view).navigate(R.id.action_helpersMenuFragment_to_helpersBroadcastFragment)
+            Navigation.findNavController(view).navigate(R.id.action_fragment_helpers_menu_to_helpersBroadcastFragment)
+        }
+        binding.btnHelpersActivity.setOnClickListener {
+            Navigation.findNavController(view).navigate(R.id.action_fragment_helpers_menu_to_helpersActivityFragment)
         }
     }
 

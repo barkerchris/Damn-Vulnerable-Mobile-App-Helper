@@ -20,10 +20,13 @@
     <string name="btn_light">Light</string>
     <string name="btn_dark">Dark</string>
     <string name="btn_helpers_broadcast">Broadcast</string>
+    <string name="btn_helpers_activity">Activity</string>
+    <string name="btn_helpers_activity_open">Open Activity</string>
 
     <!--Other-->
     <string name="txt_helpers_title">Helpers</string>
     <string name="txt_helpers_broadcast_title">Broadcast Helper</string>
+    <string name="txt_helpers_activity_title">Activity Helper</string>
     <string name="txt_username">Username</string>
     <string name="txt_password">Password</string>
 
